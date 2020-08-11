@@ -13,7 +13,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   height: 100%;
-  background-color: #dd4dbe;
+
   background-image: linear-gradient(45deg, #009ad8, #dd4dbe, #521878);
   height: 100%;
   margin: 0;
