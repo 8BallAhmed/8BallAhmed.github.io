@@ -1,0 +1,73 @@
+.nav-item-portfolio {
+  color: white !important;
+}
+
+.nav-item-portfolio:hover {
+  transition-timing-function: ease-in-out;
+  transition-duration: 200;
+  transform: 0;
+  color: rgb(200, 200, 200) !important;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 100%;
+
+  background-image: linear-gradient(45deg, #009ad8, #dd4dbe, #521878);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.btn-portfolio {
+  color: white;
+  background-color: transparent;
+  border-radius: 25px;
+  border-width: 1px !important;
+  border-style: solid !important;
+  border-color: white;
+  font-weight: 300;
+  font-size: x-large;
+  width: 200px;
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-portfolio:hover {
+  box-shadow: none;
+  outline: none;
+  background-color: white;
+  color: #521878;
+  font-weight: 300;
+  width: 200px;
+  font-size: x-large;
+}
+
+h1 {
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  padding: 1em;
+}
+
+p {
+  color: white;
+  font-weight: 200;
+  text-align: center;
+  font-size: x-large;
+}
+
+.contact {
+  transform: translate(0px, 10px);
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
+  margin-top: -2em;
+}
+.contact:hover {
+  transition-timing-function: ease-in-out;
+  transform: translate(0px, -10px);
+  transition-duration: 200ms;
+  margin-top: -2em;
+}
