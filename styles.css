@@ -1,6 +1,5 @@
 .nav-item-portfolio {
   color: white !important;
-  font-size: x-large !important;
 }
 
 .nav-item-portfolio:hover {
@@ -8,7 +7,6 @@
   transition-duration: 200;
   transform: 0;
   color: rgb(200, 200, 200) !important;
-  font-size: x-large !important;
 }
 
 body {
