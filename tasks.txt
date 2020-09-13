@@ -1,5 +1,5 @@
 [
-  { task: "Walk the dog" },
-  { task: "Mow the lawn" },
-  { task: "Clean the coffee maker" },
+  { "task": "Walk the dog" },
+  { "task": "Mow the lawn" },
+  { "task": "Clean the coffee maker" },
 ]
